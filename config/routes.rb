@@ -1,5 +1,6 @@
 DubSoftRails::Application.routes.draw do
-  resources :homes
+  root :to => 'info#index'
+  match 'about' => 'info#about'
 
 
   # The priority is based upon order of creation:
