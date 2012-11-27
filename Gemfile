@@ -17,3 +17,7 @@ gem 'pg'
 gem 'slim-rails'
 
 gem 'thin'
+
+gem 'therubyracer'
+gem 'less-rails'
+gem 'twitter-bootstrap-rails'

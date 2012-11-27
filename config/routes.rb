@@ -1,6 +1,8 @@
 DubSoftRails::Application.routes.draw do
   root :to => 'info#index'
   match 'about' => 'info#about'
+  match 'team' => 'info#team'
+  match 'contact' => 'info#contact'
 
 
   # The priority is based upon order of creation:
