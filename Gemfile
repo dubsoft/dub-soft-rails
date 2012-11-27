@@ -13,3 +13,7 @@ gem 'jquery-rails'
 gem 'slim'
 
 gem 'pg'
+
+gem 'slim-rails'
+
+gem 'thin'
